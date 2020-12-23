@@ -9,7 +9,7 @@ email = 'gsb5195@psu.edu'
 ########################################################
 
 
-from hw2_utils import *
+from utils import *
 from collections import deque
 
 # Add your imports here if used
