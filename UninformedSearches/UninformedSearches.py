@@ -1,9 +1,6 @@
 name = 'Gagandeep Batra'
 email = 'gsb5195@psu.edu'
 
-
-
-
 ########################################################
 # Import
 ########################################################
@@ -11,11 +8,6 @@ email = 'gsb5195@psu.edu'
 
 from utils import *
 from collections import deque
-
-# Add your imports here if used
-
-
-
 
 
 ##########################################################
