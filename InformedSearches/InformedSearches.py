@@ -77,20 +77,6 @@ def a_star_search(problem):
 
 
 class NQueensProblem(Problem):
-    """
-    The implementation of the class NQueensProblem is given
-    for those students who were not able to complete it in
-    Homework 2.
-    
-    Note that you do not have to use this implementation.
-    Instead, you can use your own implementation from
-    Homework 2.
-
-    >>>> USE THIS IMPLEMENTATION AT YOUR OWN RISK <<<<
-    >>>> USE THIS IMPLEMENTATION AT YOUR OWN RISK <<<<
-    >>>> USE THIS IMPLEMENTATION AT YOUR OWN RISK <<<<
-    """
-    
     def __init__(self, n):
         super().__init__(tuple([-1] * n))
         self.n = n
@@ -198,21 +184,6 @@ class NQueensProblem(Problem):
 
 
 class GraphProblem(Problem):
-    """
-    The implementation of the class GraphProblem is given
-    for those students who were not able to complete it in
-    Homework 2.
-    
-    Note that you do not have to use this implementation.
-    Instead, you can use your own implementation from
-    Homework 2.
-
-    >>>> USE THIS IMPLEMENTATION AT YOUR OWN RISK <<<<
-    >>>> USE THIS IMPLEMENTATION AT YOUR OWN RISK <<<<
-    >>>> USE THIS IMPLEMENTATION AT YOUR OWN RISK <<<<
-    """
-    
-    
     def __init__(self, init_state, goal_state, graph):
         super().__init__(init_state, goal_state)
         self.graph = graph
